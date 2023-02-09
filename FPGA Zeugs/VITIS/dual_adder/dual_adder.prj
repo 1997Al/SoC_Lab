@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="dual_adder" location="D:/Master/SoC_Lab/Xilinx/Vitis/dual_adder" platform="D:/Master/SoC_Lab/Xilinx/Vitis/dual_adder_wrapper/export/dual_adder_wrapper/dual_adder_wrapper.xpfm" platformUID="xilinx:zed::0.0(custom)" systemProject="dual_adder_system" sysConfig="dual_adder_wrapper" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="9a063018177f22c3a18d04e763c7dcf3">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.411455937">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1495740310" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
