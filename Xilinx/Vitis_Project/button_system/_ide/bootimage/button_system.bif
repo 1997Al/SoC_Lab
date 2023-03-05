@@ -1,0 +1,12 @@
+/* C:/Users/sschu/AppData/Local/Temp/bootgen_button_system10726709807780572857/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*button_wrapper*/
+the_ROM_image:
+{
+ [bootloader] D:/Master/SoC_Lab/Xilinx/Vitis/button_wrapper/export/button_wrapper/sw/button_wrapper/boot/fsbl.elf
+ D:/Master/SoC_Lab/Xilinx/Vitis/button/_ide/bitstream/button_wrapper.bit
+ D:/Master/SoC_Lab/Xilinx/Vitis/button/Debug/button.elf
+}
