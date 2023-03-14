@@ -5,7 +5,7 @@ OUT := $(TESTBENCH)
 VCD := $(TESTBENCH).vcd
 
 help: 
-	@echo "TODO..." 
+	@cat doc/make_help.txt
 
 sim: ## simulate the design depending on which testbench
 	@echo "Checking simulation depth..."

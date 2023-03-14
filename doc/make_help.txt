@@ -1,0 +1,16 @@
+Usage:
+######
+
+$ make [options]
+
+Options:
+########
+    - help: prints this help prompt
+
+    - sim   TESTBENCH=<topmodule>  # simulate the design
+                     - loaAdder_tb  <default>
+                     - zeroTruncAdder_tb
+    
+    - sim-view                     # simulate and open .vcd file in gtkwave
+
+    - gen-testvec                  # generate testvectors

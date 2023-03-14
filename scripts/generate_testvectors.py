@@ -4,7 +4,8 @@ import random
 bits = 4
 N = 4
 K = 2
-adder_type = "trunc"
+# options fo adder_type: "trunc" ,"loa"
+adder_type = "loa"
 input_bits = 2*bits
 output_bits = bits+1
 testvectors = 2**input_bits if bits < 16 else 2**bits
